@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.head{
+    height: 140px;
+    width: 100%;
+    
+  
+
+}
+.head img{
+    height: 140px;
+    width:160px;
+   position: relative;
+    bottom: 55px;
+  
+   
+   
+}
+.head h1{
+
+    height: 50px;
+    margin-left: 20%;
+     font-size: 55px;
+   
+  
+   
+   
+}
+.head span{
+    color: rgb(212, 46, 46);
+}
+
+
+nav{
+    background-color: #333;
+   height: 50px;
+   
+    
+ 
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li{
+    float: right;
+
+   
+
+   
+}
+li a:hover {
+    background-color: #111;
+  }
+
+
+nav a{
+    /* text-decoration: none;
+    color: #ffff;
+   font-size: 20px;
+   vertical-align:middle;
+   font-family: Arial, Helvetica, sans-serif;
+    transition: 0.25s ease-in; */
+    
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 20px;
+        text-decoration: none;
+    
+}
+nav  li a:hover {
+    background-color: #111;
+  }
+   
+  
+  
+ 
+  
+
+.picture{
+    background-image: url("Durga.jpeg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+.btn button{
+  position: relative;
+  top:40px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin:27px auto 0 auto;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+
+  
+
+.btn button a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn button a:hover{
+   color:black;
+}
+.des{
+
+    
+    color:  rgba(155,43,183,1);
+    font-size: 25px;
+    font-weight: 550;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top:69px;
+    display: flex;
+    justify-content: center;
+}
+.Places{
+    margin-top: 90px;
+    
+}
+.Places p{
+    color: #000;
+}
+.Places h3{
+    margin-left: 120px;
+    font-size: 22px;
+ position: relative;
+ top:60px;
+
+}
+    
+
+.vm1 {
+    display: flex;
+    border: 5px solid blue;
+    border-radius: 110px;
+    margin:0 25px;
+    background-color: white;
+    transition: 0.4s ease-in-out;
+
+  
+}
+.vm1:hover,.vm2:hover,.vm3:hover,.vm4:hover,.vm5:hover,.vm6:hover{
+    margin:30px 30px 30px 30px;
+    image-resolution: 500px 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+
+
+    
+}
+.vm1 img{
+    height:280px ;
+    width:300px;
+    border-radius: 105px;
+    border: white;
+    transition:0.4s ease-in-out ;
+   
+
+}
+
+.vm1 p{
+    margin:auto 30px auto 20px ;
+    
+}
+.vm2 {
+    display: flex;
+    border: 5px solid blue;
+    border-radius: 110px;
+    margin:0 25px;
+    background-color: white;
+
+  
+}
+.vm2 img{
+    height:280px ;
+    width:300px;
+    border-radius: 105px;
+    border: white;
+   
+
+}
+.vm2 p{
+    margin:auto auto auto 20px ;
+    
+}
+.vm2 {
+    display: flex;
+    border: 5px solid blue;
+    border-radius: 110px;
+    margin:0 25px;
+
+  
+}
+.vm2 img{
+    height:280px ;
+    width:300px;
+    border-radius: 105px;
+    border: white;
+   
+
+}
+.vm2 p{
+    margin:auto auto auto 20px ;
+    
+}
+
+.vm3 {
+    display: flex;
+    border: 5px solid blue;
+    border-radius: 110px;
+    margin:0 25px;
+    background-color: white;
+
+  
+}
+.vm3 img{
+    height:280px ;
+    width:300px;
+    border-radius: 105px;
+    border: white;
+   
+
+}
+.vm3 p{
+    margin:auto auto auto 20px ;
+    
+}
+
+.vm4 {
+    display: flex;
+    border: 5px solid blue;
+    border-radius: 110px;
+    margin:0 25px;
+    background-color: white;
+
+  
+}
+.vm4 img{
+    height:280px ;
+    width:300px;
+    border-radius: 105px;
+    border: white;
+   
+
+}
+.vm4 p{
+    margin:auto auto auto 20px ;
+    
+}
+.vm5 {
+    
+    display: flex;
+    border: 5px solid blue;
+    border-radius: 110px;
+    margin:0 25px;
+    background-color: white;
+  
+}
+.vm5 img{
+    height:280px ;
+    width:300px;
+    border-radius: 105px;
+    border: white;
+   
+
+}
+.vm5 p{
+    margin:auto auto auto 20px ;
+    
+}
+.vm6 {
+    display: flex;
+    border: 5px solid blue;
+    border-radius: 110px;
+    margin:0 25px;
+     background-color: white;
+
+  
+}
+.vm6 img{
+    height:280px ;
+    width:300px;
+    border-radius: 105px;
+    border: white;
+   
+
+}
+.vm6 p{
+    margin:auto auto auto 20px ;
+    
+}
+.footer{
+    margin-top: 50px;
+    background-color: rgb(9, 9, 110);
+    height:520px;
+   
+
+}
+.initial{
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+
+.footer h1{
+    color:skyblue;
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: underline yellow 1px ;
+}
+.footer ul,p{
+    color:white;
+}
+.ABOUT ,.menu ,.departmenT ,.booking ,.connect{
+    margin-top: 50px;
+   margin-left: 25px;
+  
+}
+.footer li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.connect img{
+    height: 140px;
+    width:170px;
+}
+.last p{
+    display: flex;
+    justify-content: center;
+    margin-top:250px;
+}
+.heading:after{
+content: "";
+animation: changeText 8s ease-in-out;
+content: "KOLKATA!";
+}
+@keyframes changeText{
+0%{content: 'KOLKATA !';}
+10%{content: 'কলকাতা';}
+20%{content: 'कोलकाता';}
+40%{content: 'KOLKATA!';}
+60%{content: 'কলকাতা';}
+80%{content: 'कोलकाता';}
+100%{content: 'KOLKATA!';}
+}
+@media(max-width: 768px) {
+    .button-63 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+    .picture{
+        width:50rem;
+        height:60rem;
+    }
+}
+@media(max-width: 450px){
+    .head img{
+        width:5rem;
+        height:5rem;
+
+    }
+    .head h1{
+        font-size: 5rem;
+    }
+    .picture{
+        width:25rem;
+        height:25rem;
+      
+    }
+}
